@@ -1,0 +1,61 @@
+# 编译输出
+*.exe
+*.out
+*.app
+*.dll
+*.so
+*.dylib
+
+# C++对象文件和库
+*.slo
+*.lo
+*.o
+*.obj
+*.lib
+
+# 编译中间文件
+*.lai
+*.la
+*.a
+
+# CMake构建目录
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# IDE相关
+.vscode/
+.vs/
+*.suo
+*.user
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 项目特定文件
+result.jpg
+*.onnx
+default_mask.png
+
+# 日志文件
+*.log
+
+# 依赖目录
+/vendor/
+/third_party/
+
+# 临时文件
+*.tmp
+*~ 
+
+# 自己定义的
+.vscode/
+build/
+model/
+tests/
